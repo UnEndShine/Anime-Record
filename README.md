@@ -10,7 +10,7 @@
   <p align="center">
     Anime1.me觀看紀錄儲存於本地
     <br />
-    適用於EdgeExtension、Google Extension
+    適用於Edge Extension、Google Extension
   </p>
 
 </p>
