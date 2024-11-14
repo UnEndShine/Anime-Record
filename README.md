@@ -72,17 +72,14 @@
 ## 注意事項
 - 僅適用於網址為：`https://anime1.me/*`
 - ~~無法跨裝置/瀏覽器紀錄(畢竟是記錄在本地端)~~
-- 可跨裝置，不可跨瀏覽器 (限相同擴充功能ID，正在上架Chrome Extension Store，花了我5美金註冊 :money_with_wings: )
+- (New!) 可跨裝置，不可跨瀏覽器 (限相同擴充功能ID，已上架Chrome Extension Store，花了我5美金註冊 :money_with_wings: )
 - 可能會占用記憶體(使用LocalStorage紀錄、chrome.storage.sync)
 - 由於總集數是透過fetch實現，可能因server或使用者網速不同，載入時間出現差異
 - 僅在`Google/Edge` `繁體中文`中測試完成
 
 # 下載與安裝方法
 
-1. 下載`Anime紀錄.crx`，將副檔名改為`.rar`並解壓縮。
-2. 到`Google/Edge擴充功能`管理頁面，`開啟開發人員模式`。
-3. 載入解壓縮資料夾
-4. 記得重新整理頁面，將在目錄頁顯示有顯示`Anime按鈕`與在影片頁有顯示`Ep按鈕`等。
+- 到[Google擴充功能商店](https://chromewebstore.google.com/detail/anime%E7%B4%80%E9%8C%84/ifnaajpiocakcaecpjcmhcfciamlaggi?authuser=0&hl=zh-TW)下載
 
 ## 免責聲明
 
