@@ -74,12 +74,22 @@
 3. 原有撥放器往前/後10s新增右鍵前往上/下集(全螢幕下使用前往上/下集將同樣全螢幕撥放)
 
 ## 注意事項
-- 僅適用於網址為：`https://anime1.me/*`
+- 僅適用於網址為：`https://anime1.me/*`。
 - ~~無法跨裝置/瀏覽器紀錄(畢竟是記錄在本地端)~~
-- $\textsf{\color{red}{(New!)}}$ 可跨裝置，不可跨瀏覽器 (限相同擴充功能ID，已上架Chrome Extension Store，花了我5美金註冊 :money_with_wings: )
-- 可能會占用記憶體(使用LocalStorage紀錄、chrome.storage.sync)
-- 由於總集數是透過fetch實現，可能因server或使用者網速不同，載入時間出現差異
-- 僅在`Google/Edge` `繁體中文`中測試完成
+- $\textsf{\color{red}{(New!)}}$ 可跨裝置，不可跨瀏覽器。 (限相同擴充功能ID，已上架Chrome Extension Store，花了我5美金註冊 :money_with_wings: )
+- 可能會占用記憶體。(使用LocalStorage紀錄、chrome.storage.sync)
+- 由於總集數是透過fetch實現，可能因server或使用者網速不同，載入時間出現差異。
+- 沒測過可以存多少紀錄，每番資料不等，但可能應該也許是1KB左右，chrome.storage.sync僅提供100KB容量，建議追完一番就刪除紀錄，避免造成錯誤。
+- 視情況切換LocalStorage與chrome.storage.sync，目前不考慮架伺服器。(沒經費、開發複雜度高)
+- 僅在`Google/Edge` `繁體中文`中測試完成。
+
+|  | LocalStorage | chrome.storage.sync | 伺服器 |
+| :---: | :---: | :---: | :---: |
+| 理論容量 | 10 MB | 100KB | 視伺服器資料庫大小 |
+| 跨裝置同步 | X | 與google帳號同步 | √ |
+| 跨平台同步 | X | X | √ |
+| 開發難度 | 低 | 低 | ∞ |
+| 費用 | Free | Free | ∞ |
 
 # 下載與安裝方法
 
